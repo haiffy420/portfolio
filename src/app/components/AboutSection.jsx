@@ -9,7 +9,7 @@ const TAB_DATA = [
     id: "experiences",
     content: (
       <ul className="list-disc pl-2">
-        <li>Intern Web Developer at Dinas Kominfo Kab. Pekalongan</li>
+        <li>Intern Web Developer at Dinas Komunikasi dan Informatika Kab. Pekalongan</li>
       </ul>
     ),
   },
@@ -18,7 +18,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>University of Muhammadiyah Pekajangan Pekalongan, Indonesia</li>
+        <li>University of Muhammadiyah Pekajangan Pekalongan, Indonesia (Est. 2025)</li>
       </ul>
     ),
   },
@@ -45,18 +45,24 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white">
+    <section className="text-white" id="about">
       <div className="gap-8 items-center py-8 px-4 xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-16">
-        <Image src="/images/pc.png" alt="about" width={500} height={500} priority={true}/>
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+        <Image
+          src="/images/pc.png"
+          alt="about"
+          width={500}
+          height={500}
+          priority={true}
+        />
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full justify-center">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-white text-base md:text-lg">
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            working with JavaScript, React, Next, Node.js, Express, MongoDB,
+            HTML, CSS, and Git. I am a quick learner and I am always looking to
+            expand my knowledge and skill set. I am a team player and I am
+            excited to work with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton

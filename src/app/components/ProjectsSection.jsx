@@ -7,57 +7,45 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "E-Commerce Application",
+    description: "Simple login-free e-commerce application using NextJS",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/haiffy420/haifan-store",
+    previewUrl: "https://haifan-store.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Intern Monitoring App",
+    description: "Application for monitoring interns in Dinas Kominfo",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/haiffy420/monitoring-magang-dinkominfo",
+    previewUrl: "http://haifan-tribuwono.my.id/",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
+    title: "Personal Portfolio",
+    description: "Simple personal portfolio using NextJS",
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/haiffy420/portfolio",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
+    title: "E-KMS Lansia",
+    description: "A project requested by one of the teacher in my college.",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/haiffy420/e-KMS-Lansia",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Intern Monitoring Mobile App",
+    description: "Mobile Version of Intern Monitoring App",
+    image: "/images/projects/5.jpg",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/haiffy420/monitoring-magang-android",
   },
 ];
 
@@ -80,7 +68,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section ref={ref}>
+    <section ref={ref} id="project">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
