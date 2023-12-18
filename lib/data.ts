@@ -38,6 +38,7 @@ export const links = [
 export const experiencesData = [
   {
     title: "Freelancer",
+    location: "",
     description: "I do graphic design, UI/UX, and game coaching.",
     icon: React.createElement(BsPersonFill),
     date: "2017 - 2018",
