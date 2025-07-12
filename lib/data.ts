@@ -1,12 +1,15 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { BsPersonFill, BsPersonWorkspace } from "react-icons/bs";
+import megacodifyImg from "@/public/megacodify.png";
+import bpeImg from "@/public/bpe.png";
+import cmsImg from "@/public/cms.png";
+import rksImg from "@/public/rks.png";
+import rksdigitalImg from "@/public/rks-digital.jpeg";
 import ecommerceImg from "@/public/ecommerce.png";
 import todoappImg from "@/public/todoapp.png";
-import portfolioImg from "@/public/portfolio.png";
 import clinicImg from "@/public/clinic.png";
-import internmonitoringImg from "@/public/internmonitoring.png";
-import internmonitoringmobileImg from "@/public/internmonitoringmobile.jpg";
+import internmonitoringImg from "@/public/intern.png";
 
 export const links = [
   {
@@ -37,36 +40,86 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelancer",
-    location: "",
-    description: "I do graphic design, UI/UX, and game coaching.",
-    icon: React.createElement(BsPersonFill),
-    date: "2017 - 2018",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Stealth Startup",
-    description:
-      "I'm currently working as a full-stack developer for 2 years in a stealth startup.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - Present",
-  },
-  {
-    title: "Full-Stack Developer Intern",
-    location: "Dinas Komunikasi dan Informatika, Pekalongan",
-    description:
-      "I developed the 'Internship Monitoring' and 'Head of Department Activities Agenda' website applications at the Dinas Komunikasi Dan Informatika of Pekalongan Regency.",
+    title: "Full Stack Developer",
+    location: "Megacodify Indonesia",
+    description: "A full stack development talent.",
     icon: React.createElement(BsPersonWorkspace),
-    date: "2023",
+    date: "2025 - Now",
+  },
+  {
+    title: "IT Staff",
+    location:
+      "Dinas Komunikasi dan Informatika Kabupaten Pekalongan, Indonesia",
+    description:
+      "Responsible for developing apps for e-governance, cyber security, and IT infrastructure.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Now",
+  },
+  {
+    title: "Freelance Developer",
+    location: "",
+    description:
+      "Responsible for various tasks in app development, including coding, debugging, and collaborating with clients to meet project requirements.",
+    icon: React.createElement(BsPersonFill),
+    date: "2023 - Now",
   },
 ] as const;
 
 export const projectsData = [
   {
+    title: "MegaCodify",
+    description: "A stunning landing page for MegaCodify.",
+    tags: [
+      "React",
+      "Next.js",
+      "Tailwind",
+      "PostgreSQL",
+      "PrismaORM",
+      "Docker",
+      "CI/CD",
+    ],
+    imageUrl: megacodifyImg,
+  },
+  {
+    title: "Bali Property Expert",
+    description:
+      "Sell, Buy & Rent Property in Bali Easily and Quickly only with Bali Property Expert.",
+    tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL"],
+    imageUrl: bpeImg,
+  },
+  {
+    title: "Government Website CMS",
+    description:
+      "Content Management System for government websites in Pekalongan Regency, Indonesia.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "Strapi"],
+    imageUrl: cmsImg,
+  },
+  {
+    title: "RKS Digital",
+    description:
+      "A mobile version for radio streaming app and blog for Radio Kota Santri, Pekalongan, Indonesia.",
+    tags: ["React", "React Native", "Expo", "Laravel", "PHP", "MySQL"],
+    imageUrl: rksdigitalImg,
+  },
+  {
+    title: "Radio Kota Santri",
+    description:
+      "A radio streaming app and blog for Radio Kota Santri, Pekalongan, Indonesia.",
+    tags: ["Laravel", "PHP", "FilamentPHP", "Tailwind", "MySQL"],
+    imageUrl: rksImg,
+  },
+  {
     title: "E-commerce",
     description: "Login-free e-commerce.",
     tags: ["React", "Next.js", "Tailwind", "Sanity Studio", "Stripe"],
     imageUrl: ecommerceImg,
+  },
+  {
+    title: "Intern Monitoring",
+    description:
+      "A web app for managing and monitoring interns at Dinas Komunikasi dan Informatika of Pekalongan Regency, Indonesia.",
+    tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL"],
+    imageUrl: internmonitoringImg,
   },
   {
     title: "Todo App",
@@ -75,51 +128,34 @@ export const projectsData = [
     imageUrl: todoappImg,
   },
   {
-    title: "Personal Portfolio",
-    description: "My personal portfolio.",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: portfolioImg,
-  },
-  {
     title: "Clinic",
     description:
       "A clinic app for managing employees, patients, drug stock, and invoices.",
     tags: ["PHP", "Laravel", "MySQL", "FilamentPHP"],
     imageUrl: clinicImg,
   },
-  {
-    title: "Intern Monitoring",
-    description:
-      "A web app for managing and monitoring interns in Dinas Komunikasi dan Informatika of Pekalongan Regency.",
-    tags: ["PHP", "MySQL"],
-    imageUrl: internmonitoringImg,
-  },
-  {
-    title: "Intern Monitoring - Mobile",
-    description:
-      "A mobile app for managing and monitoring interns in Dinas Komunikasi dan Informatika of Pekalongan Regency.",
-    tags: ["Java", "Android Studio"],
-    imageUrl: internmonitoringmobileImg,
-  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "HTML/CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
-  "Git",
+  "Expo",
+  "Strapi CMS",
   "Tailwind",
+  "Git",
+  "Docker",
+  "CI/CD",
   "MongoDB",
-  "Express",
+  "MySQL",
+  "PostgreSQL",
+  "PrismaORM",
   "PHP",
   "Laravel",
   "FilamentPHP",
-  "MySQL",
-  "Java",
   "Android Studio",
   "Python",
+  "Stripe",
 ] as const;
