@@ -10,6 +10,11 @@ import ecommerceImg from "@/public/ecommerce.png";
 import todoappImg from "@/public/todoapp.png";
 import clinicImg from "@/public/clinic.png";
 import internmonitoringImg from "@/public/intern.png";
+import eklipingImg from "@/public/ekliping.png";
+import ksdImg from "@/public/ksd.png";
+import sitasibesarImg from "@/public/sitasibesar.png";
+import inventoryImg from "@/public/inventory.png";
+import pekalonganMailerImg from "@/public/mailer.png";
 
 export const links = [
   {
@@ -72,10 +77,12 @@ export const projectsData = [
     tags: [
       "React",
       "Next.js",
+      "TypeScript",
       "Tailwind",
       "PostgreSQL",
       "PrismaORM",
       "Docker",
+      "Github Actions",
       "CI/CD",
     ],
     imageUrl: megacodifyImg,
@@ -88,6 +95,43 @@ export const projectsData = [
     imageUrl: bpeImg,
   },
   {
+    title: "Batik Inventory System",
+    description:
+      "A web app for managing inventory and sales of batik products.",
+    tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL"],
+    imageUrl: inventoryImg,
+  },
+  {
+    title: "SITaSiBesar",
+    description:
+      "An expert system for diagnosing and recommending treatment for stunting, wasting, and other child health issues.",
+    tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL"],
+    imageUrl: sitasibesarImg,
+  },
+  {
+    title: "RKS Digital",
+    description:
+      "A mobile version for radio streaming app and blog for Radio Kota Santri, Pekalongan, Indonesia.",
+    tags: [
+      "React",
+      "React Native",
+      "Expo",
+      "Tailwind",
+      "TypeScript",
+      "Laravel",
+      "PHP",
+      "MySQL",
+    ],
+    imageUrl: rksdigitalImg,
+  },
+  {
+    title: "Pekalongan Mailer",
+    description:
+      "A web app for sending emails to the public in Pekalongan Regency, Indonesia with third party email service.",
+    tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL", "Resend"],
+    imageUrl: pekalonganMailerImg,
+  },
+  {
     title: "Government Website CMS",
     description:
       "Content Management System for government websites in Pekalongan Regency, Indonesia.",
@@ -95,11 +139,11 @@ export const projectsData = [
     imageUrl: cmsImg,
   },
   {
-    title: "RKS Digital",
+    title: "Kajen Satu Data",
     description:
-      "A mobile version for radio streaming app and blog for Radio Kota Santri, Pekalongan, Indonesia.",
-    tags: ["React", "React Native", "Expo", "Laravel", "PHP", "MySQL"],
-    imageUrl: rksdigitalImg,
+      "A web app for managing and monitoring data in Pekalongan Regency, Indonesia.",
+    tags: ["React", "Next.js", "TypeScript", "Tailwind", "MongoDB"],
+    imageUrl: ksdImg,
   },
   {
     title: "Radio Kota Santri",
@@ -109,10 +153,11 @@ export const projectsData = [
     imageUrl: rksImg,
   },
   {
-    title: "E-commerce",
-    description: "Login-free e-commerce.",
-    tags: ["React", "Next.js", "Tailwind", "Sanity Studio", "Stripe"],
-    imageUrl: ecommerceImg,
+    title: "E-Kliping Kabupaten Pekalongan",
+    description:
+      "A web app for clipping news articles from various sources related to Pekalongan Regency.",
+    tags: ["Laravel", "PHP", "FilamentPHP", "Tailwind", "MySQL"],
+    imageUrl: eklipingImg,
   },
   {
     title: "Intern Monitoring",
@@ -120,6 +165,12 @@ export const projectsData = [
       "A web app for managing and monitoring interns at Dinas Komunikasi dan Informatika of Pekalongan Regency, Indonesia.",
     tags: ["React", "TypeScript", "Tailwind", "Laravel", "PHP", "MySQL"],
     imageUrl: internmonitoringImg,
+  },
+  {
+    title: "E-commerce",
+    description: "Login-free e-commerce.",
+    tags: ["React", "Next.js", "Tailwind", "Sanity Studio", "Stripe"],
+    imageUrl: ecommerceImg,
   },
   {
     title: "Todo App",
